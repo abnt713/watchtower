@@ -28,10 +28,10 @@ class BriefingState(State):
         print_data("Choices result")
         print()
         for field, value in enemy_data['guesses'].items():
-            result = "Correct"
+            result = "Effective"
             color = Fore.GREEN
             if not value:
-                result = "Incorrect"
+                result = "Ineffective"
                 color = Fore.RED
 
             print_data(field, Fore.BLUE, end='')
