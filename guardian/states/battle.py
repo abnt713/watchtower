@@ -62,6 +62,9 @@ class BattleState(State):
 
             attack = watchtower.get_current_attack(case_id)
             if attack['has_draw']:
+                print()
+                input("Press enter to continue...")
+                print()
                 continue
 
             print_data('Player has a %d%% '

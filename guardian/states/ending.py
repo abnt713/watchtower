@@ -5,6 +5,7 @@ from colorama import Fore
 class EndingState(State):
 
     def run(self, arguments={}):
+        print()
         print_data("This is the end of the journey. You are welcome "
                    "back at any time in here")
         print()
