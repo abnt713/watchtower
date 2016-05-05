@@ -43,8 +43,10 @@ para instalar as dependências do projeto
 
 ## Execução ##
 1. Vá até a pasta do projeto
-2. Execute o arquivo ```server.sh```
-3. Execute o comando ```python guardian.py```
+2. Execute o comando ```python watchtower.py```
+3. Salve o valor do campo URI, ele será utilizado futuramente
+4. Execute o comando ```python guardian.py```
+5. Quando solicitado pelo jogo, infome o URI
 
 ## Sobre o jogo ##
 Watchtower é um jogo sobre conduzir um purge com sucesso. Purge é uma cerimônia de purificação realizada sobre uma região. A purge requer que o grardião conheça seu inimigo antes de atacá-lo, por isso as pistas da equipe de investigação são tão importantes.
