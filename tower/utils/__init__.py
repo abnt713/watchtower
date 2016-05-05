@@ -10,11 +10,14 @@ class PercentageChance:
         self.chance = chance
 
     def roll(self):
-        selected = random.randint(0, 100)
+        selected = self.roll_for_number()
         if selected < self.chance:
             return True
         else:
             return False
+
+    def roll_for_number(self):
+        return random.randint(0, 100)
 
 
 class StartEndChance:
